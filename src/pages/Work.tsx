@@ -165,18 +165,18 @@ const Work = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-20 px-6 bg-gradient-to-br from-background to-primary/5">
+      <section className="py-20 px-6 bg-gradient-to-br from-background via-cyan-500/5 to-emerald-500/10 dark:from-background dark:via-cyan-900/20 dark:to-emerald-900/20">
         <div className="max-w-7xl mx-auto text-center">
           <Badge
             variant="secondary"
-            className="px-4 py-2 text-sm font-medium mb-6"
+            className="px-4 py-2 text-sm font-medium mb-6 bg-gradient-to-r from-cyan-500/10 to-emerald-500/10 border-cyan-500/20"
           >
-            <Code className="w-4 h-4 mr-2" />
+            <Code className="w-4 h-4 mr-2 text-cyan-500" />
             Portfolio
           </Badge>
           <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6">
             My{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-brand-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-emerald-500 to-purple-500">
               Work
             </span>
           </h1>
