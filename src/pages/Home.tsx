@@ -112,16 +112,16 @@ const Home = () => {
       </section>
 
       {/* Quick Overview */}
-      <section className="py-20 px-6 bg-card">
+      <section className="py-20 px-6 bg-gradient-to-b from-card to-background">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-8">
             What I Bring to the Table
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6 rounded-lg bg-background border border-border hover:border-primary/20 transition-colors">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Code className="w-6 h-6 text-primary" />
+            <div className="p-6 rounded-xl bg-gradient-to-br from-purple-500/5 to-purple-600/10 border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25 hover:-translate-y-1">
+              <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <Code className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">
                 Full Stack Development
@@ -132,9 +132,9 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="p-6 rounded-lg bg-background border border-border hover:border-primary/20 transition-colors">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Sparkles className="w-6 h-6 text-primary" />
+            <div className="p-6 rounded-xl bg-gradient-to-br from-cyan-500/5 to-cyan-600/10 border border-cyan-500/20 hover:border-cyan-500/40 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/25 hover:-translate-y-1">
+              <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-lg flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <Sparkles className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">
                 Machine Learning
@@ -145,9 +145,9 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="p-6 rounded-lg bg-background border border-border hover:border-primary/20 transition-colors">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Download className="w-6 h-6 text-primary" />
+            <div className="p-6 rounded-xl bg-gradient-to-br from-emerald-500/5 to-emerald-600/10 border border-emerald-500/20 hover:border-emerald-500/40 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/25 hover:-translate-y-1">
+              <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-lg flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <Download className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">
                 Education & Mentoring
