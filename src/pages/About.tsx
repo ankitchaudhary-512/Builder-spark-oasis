@@ -63,19 +63,19 @@ const About = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-20 px-6 bg-gradient-to-br from-background to-primary/5">
+      <section className="py-20 px-6 bg-gradient-to-br from-background via-emerald-500/5 to-purple-500/10 dark:from-background dark:via-emerald-900/20 dark:to-purple-900/20">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <Badge
               variant="secondary"
-              className="px-4 py-2 text-sm font-medium mb-6"
+              className="px-4 py-2 text-sm font-medium mb-6 bg-gradient-to-r from-emerald-500/10 to-purple-500/10 border-emerald-500/20"
             >
-              <BookOpen className="w-4 h-4 mr-2" />
+              <BookOpen className="w-4 h-4 mr-2 text-emerald-500" />
               My Journey
             </Badge>
             <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6">
               About{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-brand-600">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 via-purple-500 to-cyan-500">
                 Me
               </span>
             </h1>
