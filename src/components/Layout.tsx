@@ -33,10 +33,13 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-md border-b border-border z-50">
+      <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-md border-b border-border z-50 shadow-lg shadow-purple-500/5">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <Link to="/" className="text-2xl font-bold text-primary">
+            <Link
+              to="/"
+              className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent"
+            >
               Ankit
             </Link>
 
@@ -106,7 +109,7 @@ const Layout = ({ children }: LayoutProps) => {
       <main className="pt-20">{children}</main>
 
       {/* Footer */}
-      <footer className="bg-card border-t border-border py-12 px-6">
+      <footer className="bg-gradient-to-t from-card to-background border-t border-border py-12 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
