@@ -188,7 +188,7 @@ const Blog = () => {
           </Badge>
           <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6">
             My{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-brand-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 via-purple-500 to-cyan-500">
               Blog
             </span>
           </h1>
