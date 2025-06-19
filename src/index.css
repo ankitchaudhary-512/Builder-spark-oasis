@@ -96,4 +96,31 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Custom scrollbar for webkit browsers */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-b from-purple-500 to-cyan-500 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply from-purple-600 to-cyan-600;
+  }
+
+  /* Selection styles */
+  ::selection {
+    @apply bg-purple-500/20 text-foreground;
+  }
+
+  /* Smooth focus styles */
+  *:focus-visible {
+    @apply ring-2 ring-purple-500 ring-offset-2 ring-offset-background;
+  }
 }
